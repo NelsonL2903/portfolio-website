@@ -1,7 +1,7 @@
 import { Grid, Slide, Typography } from "@mui/material";
 import ceciLogo from "../../assets/ceci-logo.png";
 
-export const Grade11 = () => {
+export const Grade12 = () => {
   return (
     <Slide direction="right" in>
       <Grid
@@ -32,13 +32,13 @@ export const Grade11 = () => {
             variant="h6"
             style={{ color: "white", marginTop: "15px" }}
           >
-            Grade 11 Student
+            Highschool Student
           </Typography>
           <Typography
             variant="h6"
             style={{ color: "white", marginTop: "15px" }}
           >
-            Febuary 2020 - June 2020
+            Febuary 2021 - June 2022
           </Typography>
         </Grid>
         <Grid
@@ -68,4 +68,4 @@ export const Grade11 = () => {
   );
 };
 
-export default Grade11;
+export default Grade12;

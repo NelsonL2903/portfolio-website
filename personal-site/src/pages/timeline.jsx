@@ -4,8 +4,7 @@ import SwapRobotics from "../components/timeline/swap-robotics";
 import Tuq from "../components/timeline/tuq";
 import { NavigateBefore, NavigateNext } from "@mui/icons-material";
 import ECE150 from "../components/timeline/ece-150";
-import Grade11 from "../components/timeline/grade-11";
-import Grade12 from "../components/timeline/grade-12";
+import Highschool from "../components/timeline/highschool";
 
 const marks = [
   {
@@ -13,15 +12,11 @@ const marks = [
     label: "Feb 2020",
   },
   {
-    value: 25,
-    label: "Feb 2021",
-  },
-  {
-    value: 50,
+    value: 33,
     label: "Sept 2021",
   },
   {
-    value: 75,
+    value: 66,
     label: "Jan 2022",
   },
   {
@@ -138,10 +133,9 @@ export const TimelinePage = () => {
             },
           }}
         ></Slider>
-        {pageIndex === 0 && <Grade11></Grade11>}
-        {pageIndex === 25 && <Grade12></Grade12>}
-        {pageIndex === 50 && <ECE150></ECE150>}
-        {pageIndex === 75 && <Tuq></Tuq>}
+        {pageIndex === 0 && <Highschool></Highschool>}
+        {pageIndex === 33 && <ECE150></ECE150>}
+        {pageIndex === 66 && <Tuq></Tuq>}
         {pageIndex === 100 && <SwapRobotics></SwapRobotics>}
       </Grid>
       <Grid
