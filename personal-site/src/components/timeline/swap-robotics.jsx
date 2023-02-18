@@ -1,4 +1,13 @@
-import { Grid, Slide, Typography } from "@mui/material";
+import {
+  Grid,
+  Slide,
+  Typography,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+} from "@mui/material";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import swapLogo from "../../assets/swap-logo.png";
 
 export const SwapRobotics = () => {
@@ -49,19 +58,67 @@ export const SwapRobotics = () => {
           alignItems="center"
           xs
         >
-          <Typography variant="h5" style={{ color: "white" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            pretium posuere nibh, in scelerisque sapien suscipit a. Mauris non
-            hendrerit ligula. Phasellus ut lectus sit amet nunc volutpat
-            pharetra. Praesent molestie viverra elit at volutpat. Fusce elit
-            nibh, scelerisque sit amet dapibus sit amet, vehicula sed justo.
-            Etiam sed tristique lectus, nec sagittis enim. Nulla iaculis, leo
-            sit amet egestas molestie, ipsum enim varius erat, quis porttitor mi
-            erat vitae odio. Donec et nunc sem. Nullam sit amet eros id ex
-            rutrum vehicula. Phasellus sed venenatis dui. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos.
-          </Typography>
+          <List>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Used JavaScript, HTML, CSS, and the MUI library to improve and add
+            to a dockerized React application."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Created REST APIs interacting with AWS S3 Buckets as well as Prisma
+                with a PostgreSQL database."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Worked with and integrated the Google Maps JavaScript APIs into the
+                React application."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Used Jest to create unit tests for REST APIs."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Set up GitHub Actions to SSH into an AWS EC2 Instance and run various commands within the
+                instance."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Experience in Scrum development processes, along with ClickUp for
+                tickets and organization."
+              />
+            </ListItem>
+          </List>
         </Grid>
       </Grid>
     </Slide>

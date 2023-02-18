@@ -3,20 +3,10 @@ import { useState } from "react";
 import SwapRobotics from "../components/timeline/swap-robotics";
 import Tuq from "../components/timeline/tuq";
 import { NavigateBefore, NavigateNext } from "@mui/icons-material";
-import ECE150 from "../components/timeline/ece-150";
-import Highschool from "../components/timeline/highschool";
 
 const marks = [
   {
     value: 0,
-    label: "Feb 2020",
-  },
-  {
-    value: 33,
-    label: "Sept 2021",
-  },
-  {
-    value: 66,
     label: "Jan 2022",
   },
   {
@@ -133,9 +123,7 @@ export const TimelinePage = () => {
             },
           }}
         ></Slider>
-        {pageIndex === 0 && <Highschool></Highschool>}
-        {pageIndex === 33 && <ECE150></ECE150>}
-        {pageIndex === 66 && <Tuq></Tuq>}
+        {pageIndex === 0 && <Tuq></Tuq>}
         {pageIndex === 100 && <SwapRobotics></SwapRobotics>}
       </Grid>
       <Grid
@@ -145,7 +133,7 @@ export const TimelinePage = () => {
         justifyContent="center"
         alignItems="flex-end"
         xs
-        style={{ marginTop: "15px" }}
+        style={{ marginTop: "-20px" }}
       >
         <Button
           variant="contained"

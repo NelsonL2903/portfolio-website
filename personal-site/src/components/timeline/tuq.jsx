@@ -1,4 +1,13 @@
-import { Grid, Slide, Typography } from "@mui/material";
+import {
+  Grid,
+  Slide,
+  Typography,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+} from "@mui/material";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import tuqLogo from "../../assets/tuq-logo.png";
 
 export const Tuq = () => {
@@ -49,19 +58,62 @@ export const Tuq = () => {
           alignItems="center"
           xs
         >
-          <Typography variant="h5" style={{ color: "white" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            pretium posuere nibh, in scelerisque sapien suscipit a. Mauris non
-            hendrerit ligula. Phasellus ut lectus sit amet nunc volutpat
-            pharetra. Praesent molestie viverra elit at volutpat. Fusce elit
-            nibh, scelerisque sit amet dapibus sit amet, vehicula sed justo.
-            Etiam sed tristique lectus, nec sagittis enim. Nulla iaculis, leo
-            sit amet egestas molestie, ipsum enim varius erat, quis porttitor mi
-            erat vitae odio. Donec et nunc sem. Nullam sit amet eros id ex
-            rutrum vehicula. Phasellus sed venenatis dui. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos.
-          </Typography>
+          <List>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Used Ruby on Rails, along with Angular, TypeScript, and HTML to develop an application."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Created REST APIs for applications and tested them using Postman."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Implemented unit tests and Swagger API documentation."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Implemented Sorbet for a Ruby on Rails application."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Used Active Record to set up models and tables for a database."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText
+                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
+                primary="Met with clients to discuss specifications for applications, and designed ERDs based on those specifications."
+              />
+            </ListItem>
+          </List>
         </Grid>
       </Grid>
     </Slide>
