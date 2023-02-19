@@ -1,5 +1,6 @@
-import { Box, Grid, Typography } from "@mui/material";
-import Portrait from "../assets/portrait.jpg";
+import { Box, Grid } from "@mui/material";
+import Profile from "../components/about/profile";
+import Skills from "../components/about/skills";
 
 export const AboutPage = () => {
   return (
@@ -14,22 +15,15 @@ export const AboutPage = () => {
       <Grid
         item
         container
-        direction="column"
-        justifyContent="center"
+        direction="row"
+        justifyContent="flex-start"
         alignItems="center"
         xs
-        height="100%"
+        margin="30px"
+        marginTop="60px"
       >
-        {/* <img src={Portrait} alt="portrait"></img> */}
-        <Typography variant="h2" color="common.white">
-          Nelson Loop
-        </Typography>
-        <Typography variant="h3" color="common.white">
-          Computer Engineering
-        </Typography>
-        <Typography variant="h4" color="common.white">
-          University of Waterloo
-        </Typography>
+        <Profile />
+        <Skills />
       </Grid>
     </Box>
   );
