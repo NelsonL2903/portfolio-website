@@ -19,7 +19,7 @@ export const HomePage = () => {
         height: "99.9vh",
         borderBottom: 1,
         borderColor: "divider",
-        overflow: "hidden",
+        // overflow: "hidden",
       }}
     >
       <Box sx={{ bgcolor: "background.paper" }} fullWidth>
