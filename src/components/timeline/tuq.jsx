@@ -65,7 +65,7 @@ export const Tuq = () => {
               </ListItemIcon>
               <ListItemText
                 primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Used Ruby on Rails, along with Angular, TypeScript, and HTML to develop an application."
+                primary="Designed and developed applications based on client specifications, employing Ruby on Rails and Sorbet for backend development, in conjunction with Angular, TypeScript, and HTML for frontend implementation."
               />
             </ListItem>
             <ListItem>
@@ -74,7 +74,7 @@ export const Tuq = () => {
               </ListItemIcon>
               <ListItemText
                 primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Created REST APIs for applications and tested them using Postman."
+                primary="Developed REST APIs that interact with Active Record models, implemented unit tests, and documented with Swagger API for applications, enhancing application reliability and company software quality."
               />
             </ListItem>
             <ListItem>
@@ -83,34 +83,7 @@ export const Tuq = () => {
               </ListItemIcon>
               <ListItemText
                 primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Implemented unit tests and Swagger API documentation."
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
-              </ListItemIcon>
-              <ListItemText
-                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Implemented Sorbet for a Ruby on Rails application."
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
-              </ListItemIcon>
-              <ListItemText
-                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Used Active Record to set up models and tables for a database."
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <ArrowForwardIcon fontSize="large" style={{ color: "white" }} />
-              </ListItemIcon>
-              <ListItemText
-                primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Met with clients to discuss specifications for applications, and designed ERDs based on those specifications."
+                primary="Met with clients to discuss specifications for applications, and designed Entity-Relationship Diagrams based on those specifications, ensuring alignment with client needs and project success."
               />
             </ListItem>
           </List>

@@ -1,5 +1,6 @@
 import { Box, Button, Grid, Slider } from "@mui/material";
 import { useState } from "react";
+import SwapRoboticsTwo from "../components/timeline/swap-robotics_two";
 import SwapRobotics from "../components/timeline/swap-robotics";
 import Tuq from "../components/timeline/tuq";
 import { NavigateBefore, NavigateNext } from "@mui/icons-material";
@@ -10,8 +11,12 @@ const marks = [
     label: "Jan 2022",
   },
   {
-    value: 100,
+    value: 50,
     label: "Sept 2022",
+  },
+  {
+    value: 100,
+    label: "May 2023",
   },
 ];
 
@@ -56,7 +61,7 @@ export const TimelinePage = () => {
   };
 
   const getClosest = (value) => {
-    var closest = 0;
+    let closest = 0;
 
     marks.forEach((mark) => {
       const diff = Math.abs(value - mark.value);
@@ -124,7 +129,8 @@ export const TimelinePage = () => {
           }}
         ></Slider>
         {pageIndex === 0 && <Tuq></Tuq>}
-        {pageIndex === 100 && <SwapRobotics></SwapRobotics>}
+        {pageIndex === 50 && <SwapRobotics></SwapRobotics>}
+        {pageIndex === 100 && <SwapRoboticsTwo></SwapRoboticsTwo>}
       </Grid>
       <Grid
         item

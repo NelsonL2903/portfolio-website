@@ -47,11 +47,6 @@ export const Skills = () => {
           alt="CSS"
           style={{ margin: "3px" }}
         ></img>
-        <img
-          src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white"
-          alt="MUI"
-          style={{ margin: "3px" }}
-        ></img>
       </Grid>
       <Typography variant="h6" color="common.white" marginTop="10px">
         Backend:
@@ -72,6 +67,11 @@ export const Skills = () => {
           style={{ margin: "3px" }}
         ></img>
         <img
+          src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+          alt="Python"
+          style={{ margin: "3px" }}
+        ></img>
+        <img
           src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white"
           alt="Ruby"
           style={{ margin: "3px" }}
@@ -84,11 +84,6 @@ export const Skills = () => {
         <img
           src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"
           alt="Csharp"
-          style={{ margin: "3px" }}
-        ></img>
-        <img
-          src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"
-          alt="C"
           style={{ margin: "3px" }}
         ></img>
       </Grid>
@@ -122,7 +117,31 @@ export const Skills = () => {
         ></img>
       </Grid>
       <Typography variant="h6" color="common.white" marginTop="10px">
-        Cloud:
+        Libraries:
+      </Typography>
+      <Grid
+        item
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+        width="100%"
+        marginTop="10px"
+        xs
+      >
+        <img
+          src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white"
+          alt="ROS"
+          style={{ margin: "3px" }}
+        ></img>
+        <img
+          src="https://img.shields.io/badge/Material--UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"
+          alt="Material-UI"
+          style={{ margin: "3px" }}
+        ></img>
+      </Grid>
+      <Typography variant="h6" color="common.white" marginTop="10px">
+        Cloud/DevOps:
       </Typography>
       <Grid
         item
@@ -137,6 +156,16 @@ export const Skills = () => {
         <img
           src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"
           alt="AWS"
+          style={{ margin: "3px" }}
+        ></img>
+        <img
+          src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"
+          alt="Docker"
+          style={{ margin: "3px" }}
+        ></img>
+        <img
+          src="https://img.shields.io/badge/Github_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"
+          alt="GitHub Actions"
           style={{ margin: "3px" }}
         ></img>
       </Grid>

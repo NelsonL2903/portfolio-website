@@ -10,7 +10,7 @@ import {
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import swapLogo from "../../assets/swap-logo.png";
 
-export const SwapRobotics = () => {
+export const SwapRoboticsTwo = () => {
   return (
     <Slide direction="right" in>
       <Grid
@@ -41,13 +41,13 @@ export const SwapRobotics = () => {
             variant="h6"
             style={{ color: "white", marginTop: "15px" }}
           >
-            Autonomous Robotics Software Development Co-op
+            Web Developer Co-op
           </Typography>
           <Typography
             variant="h6"
             style={{ color: "white", marginTop: "15px" }}
           >
-            September 2022 - December 2022
+            May 2023 - August 2023
           </Typography>
         </Grid>
         <Grid
@@ -65,7 +65,7 @@ export const SwapRobotics = () => {
               </ListItemIcon>
               <ListItemText
                 primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Utilized Python, ROS, and Foxglove to develop code for real-time data tracking, reporting, and visualization of autonomous robots."
+                primary="Used JavaScript, HTML, CSS, and Material-UI to implement 15+ user-requested features to a Dockerized React application, such as monitoring critical robot systems and implementing fail-safe protocols to prevent autonomous operations in case of system failures."
               />
             </ListItem>
             <ListItem>
@@ -74,7 +74,7 @@ export const SwapRobotics = () => {
               </ListItemIcon>
               <ListItemText
                 primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Applied object-oriented principles to optimize class efficiency and code architecture."
+                primary="Integrated Google Maps APIs to simultaneously track and visualize the real time locations of 20+ robots."
               />
             </ListItem>
             <ListItem>
@@ -83,7 +83,7 @@ export const SwapRobotics = () => {
               </ListItemIcon>
               <ListItemText
                 primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Collaborated closely with management to prioritize project needs, resolve conflicts, and define clear ticket criteria."
+                primary="Developed robust REST APIs to interact with AWS S3 Buckets as well as PostgreSQL database through the Prisma ORM."
               />
             </ListItem>
             <ListItem>
@@ -92,7 +92,7 @@ export const SwapRobotics = () => {
               </ListItemIcon>
               <ListItemText
                 primaryTypographyProps={{ fontSize: "20px", color: "white" }}
-                primary="Contributed effectively within a Scrum framework, actively engaging in bi-daily standup meetings and sprint-focused development cycles, and effectively utilized ClickUp for ticket management and organization."
+                primary="Implemented Jest unit tests for REST APIs and established GitHub Actions for automated testing on an AWS EC2 Instance, increasing code coverage by 70%."
               />
             </ListItem>
           </List>
@@ -102,4 +102,4 @@ export const SwapRobotics = () => {
   );
 };
 
-export default SwapRobotics;
+export default SwapRoboticsTwo;

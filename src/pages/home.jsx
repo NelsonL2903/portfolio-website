@@ -1,7 +1,7 @@
 import { Box, Tabs, Tab, AppBar } from "@mui/material";
 import { useState } from "react";
 import TimelinePage from "./timeline";
-import Resume from "../assets/PortfolioResume.pdf";
+import Resume from "../assets/portfolio_resume.pdf";
 import AboutPage from "./about";
 
 export const HomePage = () => {
