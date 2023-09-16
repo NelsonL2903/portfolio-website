@@ -1,24 +1,15 @@
 import { Box, Button, Grid, Slider } from "@mui/material";
 import { useState } from "react";
-import SwapRoboticsTwo from "../components/timeline/swap-robotics_two";
-import SwapRobotics from "../components/timeline/swap-robotics";
-import Tuq from "../components/timeline/tuq";
 import { NavigateBefore, NavigateNext } from "@mui/icons-material";
+import { jobs } from "../components/utils/jobs_info";
+import Experience from "../components/timeline/experience";
 
-const marks = [
-  {
-    value: 0,
-    label: "Jan 2022",
-  },
-  {
-    value: 50,
-    label: "Sept 2022",
-  },
-  {
-    value: 100,
-    label: "May 2023",
-  },
-];
+const marks = [];
+const markBaseValue = 100 / (jobs.length - 1);
+
+jobs.forEach((job, index) => {
+  marks.push({ value: markBaseValue * index, label: job.start });
+});
 
 export const TimelinePage = () => {
   const [sliderValue, setSliderValue] = useState(100);
@@ -128,9 +119,12 @@ export const TimelinePage = () => {
             },
           }}
         ></Slider>
-        {pageIndex === 0 && <Tuq></Tuq>}
-        {pageIndex === 50 && <SwapRobotics></SwapRobotics>}
-        {pageIndex === 100 && <SwapRoboticsTwo></SwapRoboticsTwo>}
+        {jobs.map(
+          (job, index) =>
+            pageIndex === marks[index].value && (
+              <Experience jobInfo={job} key={job.title} />
+            )
+        )}
       </Grid>
       <Grid
         item
