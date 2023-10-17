@@ -49,6 +49,12 @@ export const logos = [
   },
   {
     type: "backend",
+    name: "C",
+    colour: "00599C",
+    logo: "c",
+  },
+  {
+    type: "backend",
     name: "C%23",
     colour: "239120",
     logo: "c-sharp",

@@ -4,7 +4,7 @@ import tuqLogo from "../../assets/tuq-logo.png";
 export const jobs = [
   {
     name: "Tuq",
-    title: "Junior Developer",
+    title: "Software Developer",
     start: "January 2022",
     end: "April 2022",
     logo: tuqLogo,
@@ -22,8 +22,9 @@ export const jobs = [
     logo: swapLogo,
     achievements: [
       "Utilized Python, ROS, and Foxglove to develop code for real-time data tracking, reporting, and visualization of autonomous robots.",
+      "Retrieved and monitored real-time safety diagnostics of a motor MCU from a CAN bus in Python, to enhance safety measures in robot operations.",
       "Applied object-oriented principles to optimize class efficiency and code architecture.",
-      "Collaborated closely with management to prioritize project needs, resolve conflicts, and define clear ticket criteria.",
+      "Collaborated closely with management to prioritize project needs, and define clear ticket criteria.",
       "Contributed effectively within a Scrum framework, actively engaging in bi-daily standup meetings and sprint-focused development cycles, and effectively utilized ClickUp for ticket management and organization.",
     ],
   },
@@ -34,10 +35,10 @@ export const jobs = [
     end: "August 2023",
     logo: swapLogo,
     achievements: [
-      "Used JavaScript, HTML, CSS, and Material-UI to implement 15+ user-requested features to a Dockerized React application, such as monitoring critical robot systems and implementing fail-safe protocols to prevent autonomous operations in case of system failures.",
+      "Used JavaScript, HTML, CSS, and Material-UI to implement 15+ user-requested features to a Dockerized React application, including monitoring critical robot systems and implementing fail-safe protocols to prevent autonomous operations in case of system failures.",
       "Integrated Google Maps APIs to simultaneously track and visualize the real time locations of 20+ robots.",
       "Developed robust REST APIs to interact with AWS S3 Buckets as well as PostgreSQL database through the Prisma ORM.",
-      "Implemented Jest unit tests for REST APIs and established GitHub Actions for automated testing on an AWS EC2 Instance, increasing code coverage by 70%.",
+      "Increased code coverage by 70% by implementing Jest unit tests for REST APIs and established GitHub Actions for automated testing on an AWS EC2 Instance.",
     ],
   },
 ];
